@@ -15,6 +15,26 @@
     width: 20rem;
     margin-bottom: 0px;
 }
+
+@media screen and (max-width: 480px){
+  .ThirdColumn{
+    margin-top:8rem;
+    height: 150%;
+    width: 20rem;
+    margin-bottom: 0px;
+    margin-left: 1rem;
+}
+.SecondColumn{
+  width:80%;
+  margin: 1rem; margin-top:8rem; ; border-radius: 2rem; margin-left: 1rem;
+  background-color: rgb(117, 238, 87);
+  
+}
+.FirstColumn{
+  width:85%;
+  margin-top:8rem; margin-left:2rem; border-radius: 1rem;
+}
+}
 .Vehicle{
     background-color: white;
 }

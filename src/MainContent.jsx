@@ -16,7 +16,7 @@ const MainContent = () => {
     
     const {width} = useWindowSize();
     console.log(width)
-    if(width>1000){
+    if(width>1700){
         return (
             <div className="MainContent">
             <Sidebar/>
@@ -53,7 +53,27 @@ const MainContent = () => {
         );
     }else{
         return(
-            <div></div>
+            <div className="MainContent">     
+            <div className="d-flex" >
+                    <div className="d-flex align-items-stretch">
+                        <div>
+                        <JourneyDetail/>
+                        <PickupContact/>
+                        <CarbonFootprint/>
+                       <VehicleChoice/>
+                       <AdditionalInfo/>
+                       <Map/>
+                           
+                           <ProgressBar/>
+                           <Payment/>
+                        </div>
+              
+                    </div>
+              
+                    
+            </div>
+                  
+            </div>
         );
     }
     

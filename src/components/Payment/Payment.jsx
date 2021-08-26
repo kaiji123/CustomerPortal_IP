@@ -1,8 +1,12 @@
 
 import "../../style/Cards.css"
+import { useState } from "react";
+import "./Payment.css"
 
 const Payment = () => {
-    
+    const [price, setPrice] = useState({
+        total: "5.00"
+      });
        
 
     return (
@@ -10,8 +14,18 @@ const Payment = () => {
         <div>
         <div className="card ThirdColumn" >
 <div className="card-body header" >
-<div><h5 className="card-title">Additional Information </h5>   </div>
-<textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+<div><h5 className="card-title">Total Amount {price.total} €  </h5>   </div>
+<div style = {{   margin: "1px"}}>
+            
+            <div class = "payContainer">
+
+            
+                <input type="text" placeholder="Enter promocode" class ="inputField"  />
+                <button>Submit</button>
+            </div>
+            <button class= "payContainer book">Book now</button>
+            
+</div>
 
    
    

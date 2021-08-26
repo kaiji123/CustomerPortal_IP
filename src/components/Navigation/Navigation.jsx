@@ -1,4 +1,7 @@
 import 'bootstrap/dist/css/bootstrap.css';
+import {BsBook} from 'react-icons/bs' 
+import {BiLogIn} from "react-icons/bi"
+import {RiFootprintFill} from "react-icons/ri"
 const Navigation = () => {
     
        
@@ -15,7 +18,7 @@ const Navigation = () => {
 
             <label style={{marginLeft:"30px"}} > <b><big>Dashboard</big></b> 
               <br />
-              Moving towards better science
+              Moving towards a clean and better journey
             </label>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"></span>
@@ -24,18 +27,17 @@ const Navigation = () => {
             <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
               <ul class="navbar-nav">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Contact</a>
+                  <a class="nav-link active" aria-current="page" href="#"><div><BsBook/></div>
+                    Bookings </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Pricing</a>
+                  <a class="nav-link" href="#"><div><RiFootprintFill/></div>Footprints</a>
                 </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Download</a>
-                </li>
+              
               </ul>
             </div>
             <div class="navbar-nav ml-auto">
-                <a href="#" class="nav-item nav-link">Login</a>
+                <a href="#" class="nav-item nav-link"><div><BiLogIn/></div>Login</a>
             </div>
             </div>
     

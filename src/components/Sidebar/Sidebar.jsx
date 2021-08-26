@@ -2,6 +2,14 @@ import 'bootstrap/dist/css/bootstrap.css';
 import './Sidebar.css';
 
 import MainContent from '../../MainContent.jsx';
+import {MdDashboard,MdPayment, MdContactPhone} from 'react-icons/md'
+import {BsBook} from 'react-icons/bs'
+import {RiMoneyPoundCircleFill} from 'react-icons/ri'
+import {GoSignOut} from 'react-icons/go'
+
+
+
+
 const Sidebar = () => {
     
        
@@ -10,22 +18,22 @@ const Sidebar = () => {
         <div id="sidebar-wrapper">
         <ul class="sidebar-nav">
         
-            <li><a href="#">Dashboard</a>
+            <li><a href="#"><MdDashboard/> Dashboard</a>
             </li>
-            <li><a href="#">Bookings</a>
+            <li><a href="#"><BsBook/> Bookings</a>
             </li>
-            <li><a href="#">Payment</a>
+            <li><a href="#"><MdPayment/> Payment</a>
             </li>
-            <li><a href="#">Carbon Savings</a>
+            <li><a href="#"><RiMoneyPoundCircleFill/> Carbon Savings</a>
             </li>
-            <li><a href="#">Contact us</a>
+            <li><a href="#"><MdContactPhone/> Contact us</a>
             </li>
 
        
             
             
             <li style={{marginTop: "300px"}}>
-                <a href="#">Sign out</a>
+                <a href="#"><GoSignOut/>Sign out</a>
             </li>
         </ul>
     </div>
