@@ -6,6 +6,52 @@
   height: 40vmin;
   pointer-events: none;
 }
+.required::after{
+  content : " *";
+  color: red;
+}
+#custom-checkbox:checked:after{
+ filter: hue-rotate(140deg);
+}
+.header{
+  margin: 2rem;
+  text-align: left
+}
+.inputContainer{
+ border-radius: 8px;
+ display: grid;
+ grid-template-columns: auto auto;
+ padding: 10px;
+ float: left ;
+ border:1px solid black;
+ width: 20rem;
+ margin: 1rem;
+
+}
+.inputContainer1{
+  border-radius: 8px;
+  display: grid;
+  grid-template-columns: auto auto;
+  padding: 10px;
+  float: left ;
+  border:1px solid black;
+  width: 14rem;
+
+}
+.FirstColumn{
+  width:100%;
+  margin: 3rem; margin-top:8rem; margin-left:10rem; border-radius: 8rem;
+}
+.inputField{
+  border-radius: 8px;
+  width : 15rem;
+  height: 2.5rem;
+  border: none
+}
+.third{
+  margin-left: 2rem;
+  margin-top: 5rem;
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -27,6 +73,10 @@
 .App-link {
   color: #61dafb;
 }
+.phoneInput{
+  width: 6rem;
+}
+
 
 @keyframes App-logo-spin {
   from {

@@ -1,0 +1,24 @@
+.FirstColumn{
+    width:85%;
+    margin-top:8rem; margin-left:10rem; border-radius: 2rem;
+  }
+
+.SecondColumn{
+    width:80%;
+    margin: 1rem; margin-top:8rem; ; border-radius: 2rem; margin-left: 6rem;
+    background-color: rgb(117, 238, 87);
+    
+  }
+.ThirdColumn{
+    margin-top:8rem;
+    height: 150%;
+    width: 20rem;
+    margin-bottom: 0px;
+}
+.Vehicle{
+    background-color: white;
+}
+
+.image{
+    background-color: rgb(117, 238, 87);border-radius: 2rem;
+}
