@@ -1,0 +1,14 @@
+.selected{
+    border-width: 10px;
+    border-color: seagreen;
+    border-style: solid;
+    border-radius: 2em;
+    margin: 1rem;
+    height: 65%;
+    
+   
+}
+.notselected{
+    margin: 1rem;
+    height: 65%;
+}
